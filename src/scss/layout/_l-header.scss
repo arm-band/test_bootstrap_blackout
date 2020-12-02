@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+@use "../foundation" as f;
+@use "../global" as g with (
+    $theme-colors: (
+        /* 上書き */
+        primary: f.$mori-color,
+        /* デフォルトにないカラーの追加 */
+        main: f.$mori-main-color,
+    ),
+);
+
+.l-header {
+    .navbar-brand {
+        &,
+        &:link,
+        &:visited {
+            color: f.$mori-main-color;
+        }
+        &:hover,
+        &:active,
+        &:focus {
+            color: f.$mori-main-color_l;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+@use "../foundation" as f;
+@use "../global" as g;
+
+.l-footer {
+    position: fixed;
+    bottom: 0;
+    background-color: f.$mori-main-color;
+    color: f.$mori-color;
+}

@@ -1,0 +1,9 @@
+/node_modules/
+package-lock.json
+/src/scss/assets/bootstrap/bootstrap.scss
+/src/scss/assets/bootstrap/honoka/honoka/
+/src/scss/assets/bootstrap/honoka/bootstrap/
+!/src/scss/assets/bootstrap/honoka/_honoka.scss
+/dist/**/*.html
+/dist/**/*.css
+/dist/**/*.js

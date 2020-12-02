@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+@use "sass:color";
+
+$mori-color: #333;
+$mori-main-color: #ccc;
+$mori-main-color_d: color.scale($mori-main-color, $lightness: -8%);
+$mori-main-color_l: color.scale($mori-main-color, $lightness: 8%);
+$mori-accent-color: color.adjust($mori-main-color, $hue: 150deg);
+$mori-link-color: color.adjust($mori-main-color, $hue: 210deg);
+$mori-link-v-color: color.scale($mori-link-color, $lightness: -8%);
+$mori-link-ha-color: color.scale($mori-link-color, $lightness: 8%);
+$mori-bg-color: #fff;

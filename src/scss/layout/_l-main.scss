@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+@use "../foundation" as f;
+@use "../global" as g;
+
+.l-main {
+    background-color: f.$mori-bg-color;
+    color: f.$mori-color;
+    .btn-main {
+        color: f.$mori-color;
+    }
+}

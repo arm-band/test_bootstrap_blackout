@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@use "../../foundation" as f;
+
+a,
+a:link {
+    color: f.$mori-link-color;
+    text-decoration: none;
+}
+a:visited {
+    color: f.$mori-link-v-color;
+    text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+    color: f.$mori-link-ha-color;
+    text-decoration: none;
+}
